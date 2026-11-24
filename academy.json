@@ -1,0 +1,38 @@
+{
+  "version": 1,
+  "enabled": false,
+  "pin_hash": "eec44e88",
+  "registration_free": true,
+  "trial_classes": 3,
+  "classes_start": "2027-01",
+  "sibling_discount_percent": 20,
+  "class_minutes": 30,
+  "whatsapp": "",
+  "sheet_url": "",
+  "regions": [
+    {"id": "us", "name": "امریکہ / کینیڈا", "countries": ["us", "ca"], "currency": "$", "after": false,
+     "fees": {"d2": 25, "d3": 35, "d5": 55, "hifz": 100}},
+    {"id": "uk", "name": "برطانیہ", "countries": ["gb"], "currency": "£", "after": false,
+     "fees": {"d2": 20, "d3": 28, "d5": 42, "hifz": 80}},
+    {"id": "eu", "name": "یورپ", "countries": ["de","fr","it","es","nl","be","at","ie","pt","fi","gr","se","dk","no","ch","pl","cz","lu","sk","si","ee","lv","lt","mt","cy","hr"],
+     "currency": "€", "after": false, "fees": {"d2": 22, "d3": 32, "d5": 50, "hifz": 90}},
+    {"id": "gulf", "name": "امارات / قطر / عمان", "countries": ["ae", "qa", "om"], "currency": "درھم", "after": true,
+     "fees": {"d2": 90, "d3": 110, "d5": 150, "hifz": 200}},
+    {"id": "sa", "name": "سعودی عرب", "countries": ["sa"], "currency": "ریال", "after": true,
+     "fees": {"d2": 90, "d3": 110, "d5": 150, "hifz": 200}},
+    {"id": "au", "name": "آسٹریلیا", "countries": ["au"], "currency": "A$", "after": false,
+     "fees": {"d2": 35, "d3": 50, "d5": 80, "hifz": 150}},
+    {"id": "pk", "name": "پاکستان", "countries": ["pk"], "currency": "روپیہ", "after": true,
+     "fees": {"d2": 1000, "d3": 1500, "d5": 2500, "hifz": 4000}},
+    {"id": "in", "name": "ھندوستان", "countries": ["in"], "currency": "₹", "after": false,
+     "fees": {"d2": 700, "d3": 1000, "d5": 1400, "hifz": 2000}},
+    {"id": "other", "name": "دگہ ملک", "countries": [], "currency": "$", "after": false,
+     "fees": {"d2": 25, "d3": 35, "d5": 55, "hifz": 100}}
+  ],
+  "courses": [
+    {"id": "qaida", "name": "سیپارہ (نورانی قاعدہ)", "min_age": 4, "duration": "3 – 6 ماہ"},
+    {"id": "nazira", "name": "ناظرہ قرآن", "min_age": 5, "duration": "1 – 2 سال"},
+    {"id": "hifz", "name": "حفظ", "min_age": 7, "duration": "2 – 4 سال"},
+    {"id": "adults", "name": "مستریں مردمانی وانگ", "min_age": 16, "duration": "وتی رفتار ءَ"}
+  ]
+}
